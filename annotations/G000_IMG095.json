@@ -1,0 +1,22 @@
+{
+  "source_image": "dataset/chessred2k/images/0/G000_IMG095.jpg",
+  "corners": [
+    {
+      "x": 1369,
+      "y": 899
+    },
+    {
+      "x": 2675,
+      "y": 1334
+    },
+    {
+      "x": 1834,
+      "y": 2462
+    },
+    {
+      "x": 370,
+      "y": 1711
+    }
+  ],
+  "candidates": []
+}
