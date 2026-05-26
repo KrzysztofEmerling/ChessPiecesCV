@@ -1,0 +1,22 @@
+{
+  "source_image": "/Users/chamster/Desktop/chess-images/images/28/G028_IMG081.jpg",
+  "corners": [
+    {
+      "x": 413,
+      "y": 1162
+    },
+    {
+      "x": 1763,
+      "y": 832
+    },
+    {
+      "x": 2697,
+      "y": 1532
+    },
+    {
+      "x": 1180,
+      "y": 2058
+    }
+  ],
+  "candidates": []
+}
