@@ -1,3 +1,6 @@
 /dataset
 /envCV
-/__pycache__
+__pycache__/
+.venv/
+test_images/
+dataset_squares/
