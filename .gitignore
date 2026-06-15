@@ -5,3 +5,4 @@ __pycache__/
 test_images/
 dataset_squares/
 piece_recognition/train.csv
+/piece_recognition/tuning_results
