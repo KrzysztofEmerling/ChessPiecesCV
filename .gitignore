@@ -4,3 +4,4 @@ __pycache__/
 .venv/
 test_images/
 dataset_squares/
+piece_recognition/train.csv
