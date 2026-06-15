@@ -15,7 +15,7 @@ fi
 
 if [ ! -f "$ARCHIVE" ]; then
     echo "Downloading dataset..."
-    wget "$URL" -O "$ARCHIVE"
+    curl -L "$URL" -o "$ARCHIVE"
 fi
 
 spinner() {
