@@ -1,5 +1,3 @@
-# to generował chat bo to tylko skrypt do testu, nie bijcie, wydaje się git
-
 """
 Quick visual test for the board_detection module.
 
