@@ -1,4 +1,4 @@
-tutorial do generowania -Twojej starej- odseparowanych pól szachownicy
+tutorial do generowania odseparowanych pól szachownicy
 
 Bez etykiet (wszystko do `_unlabeled/`):
 
@@ -24,8 +24,6 @@ python3 -m dataset_generation.generate_squares --limit 10 --output /tmp/squares
 ```
 
 ## Flagi
-
-Chat generował tę część readme, ale wygląda G, więc można używać, wszystkie te flagi działają.
 
 | Flaga                         | Opis                                                                    |
 | ----------------------------- | ----------------------------------------------------------------------- |
