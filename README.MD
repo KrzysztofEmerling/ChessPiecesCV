@@ -1,3 +1,35 @@
+# Spis treści
+- [Spis treści](#spis-treści)
+- [Pobranie repozytorium oraz stworzenie i uruchomienie środowiska wykonawczego](#pobranie-repozytorium-oraz-stworzenie-i-uruchomienie-środowiska-wykonawczego)
+- [Rozpoznawanie pozycji szachowej z obrazu](#rozpoznawanie-pozycji-szachowej-z-obrazu)
+- [Opis projektu](#opis-projektu)
+- [Architektura systemu](#architektura-systemu)
+  - [1. Model wykrywania pól](#1-model-wykrywania-pól)
+  - [2. Model rozpoznawania figur](#2-model-rozpoznawania-figur)
+  - [3. Rekonstrukcja pozycji](#3-rekonstrukcja-pozycji)
+- [Dataset](#dataset)
+- [Struktura repozytorium](#struktura-repozytorium)
+- [Licencja](#licencja)
+- [Wyniki](#wyniki)
+
+
+# Pobranie repozytorium oraz stworzenie i uruchomienie środowiska wykonawczego
+
+Pobranie repozytorium.
+```bash
+git clone https://github.com/KrzysztofEmerling/ChessPiecesCV.git
+cd ChessPiecesCV
+```
+
+Stworzenie i uruchomienie środowiska wykonawczego (Linux/macOS).
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+---
+
 # Rozpoznawanie pozycji szachowej z obrazu
 
 Projekt ma na celu rozpoznawanie pozycji figur szachowych na podstawie obrazu lub nagrania wideo z wykorzystaniem metod analizy obrazu.
