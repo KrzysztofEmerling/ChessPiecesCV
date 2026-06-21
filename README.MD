@@ -65,11 +65,7 @@ obraz / klatka wideo
 → klasyfikacja figur
 → rekonstrukcja pozycji na planszy
 
-System docelowo może działać na:
-
-- pojedynczych zdjęciach
-- strumieniu z kamery
-- nagraniach wideo
+System docelowo może działać na pojedynczych zdjęciach
 
 ---
 
