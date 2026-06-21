@@ -127,7 +127,7 @@ Szczegóły znajdują się w sekcji **Dataset**.
 
 # Wyniki
 
-- Kod prawidłowo realizuje wykrywanie szachownicy, w przypadku brku wykrycia szachwonicy program zwróci błąd.
+- Kod prawidłowo realizuje korekcję perspektywy wraz z wykrywaniem szachownicy, w przypadku brku wykrycia szachwonicy program zwróci błąd.
 - W repozytorium porównano 3 różne modele wykrywania typów figór szachowych LSB + RandomForest, MPL, CNN, jednakże z uwagi na niezbalansowanie nie udało uzyskać się wystarczającej dokładności w żadnym z zastosowanych modeli. Na niepowodzenie części ML wpłyneły brak uwzględnienia rotacji planszy powyżej 30 deg (odwracsającej szachownicę). Wpłyneło to na niepoprawne zaetykietowanie części danych treningowych. Skutkiem czego dokładność modeli wynosi około 70% gdzie modele MPL i CNN działały nieznacznie lepiej niż prostrzy kożystający z RandomForest. Niaska dokładność modeli nie pozwoliła na prawidłową rekonstrukcji pozycji szachowej.
 - W repozytorium dokonano porównania obrazów oznaczonych ręcznie z modelami oznaczonymi przez utworzoną funkcję, uzyskując 10% pokrycia.
 - na końcu połączono metodę korekcji perspektywy wraz z wykrywaniem pól szachwonicy z modelem MPL, zapisującą szachwonicę do formatu FEN. Prezentującą wyniki połączenia wszystkich elementów projektu.
