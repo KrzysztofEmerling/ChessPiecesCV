@@ -1,4 +1,4 @@
-tutorial do generowania odseparowanych pól szachownicy
+Tutorial do generowania odseparowanych pól szachownicy
 
 Bez etykiet (wszystko do `_unlabeled/`):
 
