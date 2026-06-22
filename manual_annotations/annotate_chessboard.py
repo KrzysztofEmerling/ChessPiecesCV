@@ -7,7 +7,8 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-REPO_ROOT = Path(__file__).resolve().parent
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
 # Default image root uses Dataset when available, otherwise the repository root.
 DEFAULT_IMAGE_ROOT = REPO_ROOT / 'Dataset'
 # Simpler default output folder for JSON annotations.
