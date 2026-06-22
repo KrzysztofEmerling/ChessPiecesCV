@@ -126,6 +126,9 @@ Dane są wykorzystywane do trenowania modeli wykrywania pól oraz klasyfikacji f
 ```
 project/
 │
+├── annotation/
+│   ręcznie wykonane adnotacje plansz
+│
 ├── board_detection/
 │   model i kod do wykrywania szachownicy oraz pól
 │
@@ -137,6 +140,9 @@ project/
 │
 ├── inference/
 │   końcowy pipeline łączący oba modele
+│
+├── manual_annotations/
+│   narzędzie do ręcznego anotowania plansz
 │
 └── experiments/
     eksperymenty i notatniki treningowe
